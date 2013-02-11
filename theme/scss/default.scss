@@ -2,7 +2,7 @@
 @import "compass/css3/columns";
 @import "compass/css3/user-interface";
 
-$social-tags: '#yourhashtag';
+$social-tags: '#xconf';
 $brand-small-icon-size: 30px;
 
 $gray-1: #e6e6e6;
@@ -99,7 +99,7 @@ slides > slide {
   display: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 26px;
-  color: $gray-3;
+  color: black;
   //@include background(linear-gradient(white, white 85%, $gray-1));
   //background-color: white;
   width: $slide-width;
@@ -140,7 +140,7 @@ slides > slide {
       opacity: 1;
     }
 
-    .gdbar {
+    .twbar {
       @include background-size(100% 100%);
     }
   }
@@ -161,11 +161,11 @@ slides > slide {
   }
 
   &.dark {
-    background: $gray-4 !important;
+    background: #246181 !important;
   }
 
   &:not(.nobackground) {
-    //background: white url(../../images/google_developers_icon_128.png) ($brand-small-icon-size * 2) 98% no-repeat;
+    //background: white url(../../images/tw_brackets_color_128x128.png) ($brand-small-icon-size * 2) 98% no-repeat;
     //@include background-size($brand-small-icon-size $brand-small-icon-size);
 
     &:before {
@@ -174,7 +174,7 @@ slides > slide {
       position: absolute;
       bottom: $slide-top-bottom-padding / 2;
       left: $slide-left-right-padding;
-      background: url(../../images/google_developers_icon_128.png) no-repeat 0 50%;
+      background: url(../../images/tw_brackets_color_128x128.png) no-repeat 0 50%;
       @include background-size($brand-small-icon-size $brand-small-icon-size);
       padding-left: $brand-small-icon-size + 10;
       height: $brand-small-icon-size;
@@ -193,13 +193,13 @@ slides > slide {
   &.title-slide {
     &:after {
       content: '';
-      background: url(../../images/io2012_logo.png) no-repeat 100% 50%;
+      background: url(../../images/tw-xconf-australia-logo_413x332.png) no-repeat 100% 50%;
       @include background-size(contain);
       position: absolute;
       bottom: $slide-top-bottom-padding;
       right: $slide-top-bottom-padding;
       width: 100%;
-      height: 60px;
+      height: 200px;
     }
   }
 
@@ -300,9 +300,8 @@ b {
 }
 
 a {
-  color: $brand-blue-secondary2;
   text-decoration: none;
-  border-bottom: 1px solid rgba(42, 124, 223, 0.5);
+  border-bottom: 1px solid rgba(85, 26, 139, 0.5);
 
   &:hover {
     color: black !important;
@@ -317,7 +316,6 @@ h2 {
   font-size: 45px;
   line-height: 45px;
   letter-spacing: -2px;
-  color: $gray-4;
 }
 
 h3 {
@@ -325,7 +323,6 @@ h3 {
   letter-spacing: -1px;
   line-height: 2;
   font-weight: inherit;
-  color: $gray-3;
 }
 
 ul {
@@ -652,7 +649,7 @@ article.smaller {
   color: $brand-red-secondary2; //rgb(127, 0, 127);
 }
 .prettyprint .pln {
-  color: $gray-4;
+  color: black;
 }
 
 .note {
@@ -837,8 +834,7 @@ article.smaller {
 /* ===== SLIDE CONTENT ===== */
 .logoslide {
   img {
-    width: 383px;
-    height: 92px;
+    height: 200px;
   }
 }
 
@@ -860,7 +856,7 @@ article.smaller {
 }
 
 .thank-you-slide {
-  background: $brand-blue !important;
+  background: #246181 !important;
   color: white;
 
   h2 {
@@ -881,7 +877,7 @@ article.smaller {
   }
 }
 
-aside.gdbar {
+aside.twbar {
   height: 97px;
   width: 215px;
   position: absolute;
@@ -928,18 +924,15 @@ aside.gdbar {
       font-size: 65px;
       line-height: 1.4;
       letter-spacing: -3px;
-      color: $gray-4;
     }
 
     h2 {
       font-size: 34px;
-      color: $gray-2;
       font-weight: inherit;
     }
 
     p {
       font-size: 20px;
-      color: $gray-3;
       line-height: 1.3;
       margin-top: 2em;
     }
@@ -966,6 +959,10 @@ aside.gdbar {
     width: 115px;
     display: inline-block;
   }
+}
+
+h2[data-config-subtitle] {
+  color: black;
 }
 
 .overview {
