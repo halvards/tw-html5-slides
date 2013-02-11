@@ -2,9 +2,7 @@
 
 Fork of Google's [io-2012-slides](https://code.google.com/p/io-2012-slides/).
 
-Starter video:
-
-<iframe width="640" height="480" frameborder="0" src="http://www.youtube.com/embed/WRvECXyWj80"></iframe>
+To get started, please watch this [instructional video](http://www.youtube.com/watch?v=WRvECXyWj80).
 
 Supports:
 
@@ -96,6 +94,3 @@ To disable presenter mode, hit [http://localhost:8000/template.html?presentme=fa
 
 Presenter mode is sticky, so refreshing the page will persist your settings.
 
----
-
-That's all she wrote!
