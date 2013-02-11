@@ -20,6 +20,7 @@ var SLIDE_CONFIG = {
   presenters: [{
     name: 'Firstname Lastname',
     company: 'Job Title, ThoughtWorks',
+    email: 'you@company.com',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://www.you.com',
@@ -27,6 +28,7 @@ var SLIDE_CONFIG = {
   }/*, {
     name: 'Second Name',
     company: 'Job Title, ThoughtWorks',
+    email: 'you@company.com',
     gplus: 'http://plus.google.com/1234567890',
     twitter: '@yourhandle',
     www: 'http://www.you.com',
