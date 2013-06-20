@@ -2,6 +2,8 @@
 
 Fork of Google's [io-2012-slides](https://code.google.com/p/io-2012-slides/).
 
+See a [sample slide deck using this template](http://halvards.github.io/tw-html5-slides).
+
 To get started, please watch this [instructional video](http://www.youtube.com/watch?v=WRvECXyWj80).
 
 Supports:
